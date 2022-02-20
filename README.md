@@ -15,7 +15,7 @@ Nice-to-have:
 
 We appoint you a manager of this project, so feel free to add more features if you like :)
 
-Saloni Sharma
+Saloni Sharma - Approach and enhancements
 ===========================================================================================================================================================================
 Thank you for sharing the challenge.
 I have refactored the code to define abstract classes Pizzeria stores and Pizza.
