@@ -18,7 +18,7 @@ We appoint you a manager of this project, so feel free to add more features if y
 Saloni Sharma
 ===========================================================================================================================================================================
 Thank you for sharing the challenge.
-I have refactored the code to define abstract classes Pizza stores and Pizza.
+I have refactored the code to define abstract classes Pizzeria stores and Pizza.
 The store and respective pizza classes implement the methods which will cater to any location/store based offers or changes or pizza preparation,baking,boxing and cutting updates.
 
 The menu and price class take care of defining the menu rolled out for the locations.The values currently are defined in the class.
