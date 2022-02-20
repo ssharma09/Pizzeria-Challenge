@@ -30,11 +30,12 @@ namespace LOR.Pizzeria
 
         }
 
-        public class Price
+        public class PizzaIngredients
         {
-            public const string ExtraCheese = "extra cheese";
-            public const string OliveOil = "olive oil";
-            public const string Mayo = "mayo";
+            public const string CapriciosaIngredients = "mushrooms, cheese, ham, mozarella";
+            public const string FlorenzaIngredients = "olives, pastrami, mozarella, onion";
+            public const string MargheritaIngredients = "mozarella, onion, garlic, oregano";
+            public const string InfernoIngredients = "chili peppers, mozzarella, chicken, cheese";
 
         }
 

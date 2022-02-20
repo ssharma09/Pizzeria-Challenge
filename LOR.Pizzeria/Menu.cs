@@ -14,16 +14,16 @@ namespace LOR.Pizzeria
             switch (location)
             {
                 case Constants.Location.Brisbane:
-                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Capriciosa, "mushrooms, cheese, ham, mozarella", price.getPrice(location, Constants.PizzaType.Capriciosa)));
-                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Florenza, "olives, pastrami, mozarella, onion", price.getPrice(location, Constants.PizzaType.Florenza)));
-                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Margherita, "mozarella, onion, garlic, oregano", price.getPrice(location, Constants.PizzaType.Margherita)));
+                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Capriciosa, Constants.PizzaIngredients.CapriciosaIngredients, price.getPrice(location, Constants.PizzaType.Capriciosa)));
+                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Florenza, Constants.PizzaIngredients.FlorenzaIngredients, price.getPrice(location, Constants.PizzaType.Florenza)));
+                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Margherita, Constants.PizzaIngredients.MargheritaIngredients, price.getPrice(location, Constants.PizzaType.Margherita)));
                     break;
                 case Constants.Location.Sydney:
-                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Capriciosa, "mushrooms, cheese, ham, mozarella", price.getPrice(location, Constants.PizzaType.Capriciosa)));
-                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Inferno, "chili peppers, mozzarella, chicken, cheese", price.getPrice(location, Constants.PizzaType.Inferno)));
+                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Capriciosa, Constants.PizzaIngredients.CapriciosaIngredients, price.getPrice(location, Constants.PizzaType.Capriciosa)));
+                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Inferno, Constants.PizzaIngredients.InfernoIngredients, price.getPrice(location, Constants.PizzaType.Inferno)));
                     break;
                 case Constants.Location.GoldCoast:
-                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Margherita, "mozarella, onion, garlic, oregano", price.getPrice(location, Constants.PizzaType.Margherita)));
+                    pizzaName.Add(Tuple.Create(Constants.PizzaType.Inferno, Constants.PizzaIngredients.InfernoIngredients, price.getPrice(location, Constants.PizzaType.Margherita)));
                     break;
             }
 
@@ -36,16 +36,16 @@ namespace LOR.Pizzeria
             switch (pizzaType)
             {
                 case Constants.PizzaType.Capriciosa:
-                    ingredients.Add("mushrooms, cheese, ham, mozarella");
+                    ingredients.Add(Constants.PizzaIngredients.CapriciosaIngredients);
                     break;
                 case Constants.PizzaType.Florenza:
-                    ingredients.Add("olives, pastrami, mozarella, onion");
+                    ingredients.Add(Constants.PizzaIngredients.FlorenzaIngredients);
                     break;
                 case Constants.PizzaType.Margherita:
-                    ingredients.Add("mozarella, onion, garlic, oregano");
+                    ingredients.Add(Constants.PizzaIngredients.MargheritaIngredients);
                     break;
                 case Constants.PizzaType.Inferno:
-                    ingredients.Add("chili peppers, mozzarella, chicken, cheese");
+                    ingredients.Add(Constants.PizzaIngredients.InfernoIngredients);
                     break;
             }
 
