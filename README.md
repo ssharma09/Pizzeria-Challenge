@@ -23,8 +23,9 @@ The store and respective pizza classes implement the methods which will cater to
 
 The menu and price class take care of defining the menu rolled out for the locations.The values currently are defined in the class.
 
-Further enhancements to this would be to fetch them from a config/json file based on the location as defined in the format below.
-The mmenu and prices can that way be updated from the config not impacting the code base.
+Further enhancements to this would be :-
+1. To fetch them from a config/json file based on the location as defined in the format below.
+The menu and prices can that way be updated from the config not impacting the code base.
 Menu.json
 [
   {
@@ -41,5 +42,15 @@ Toppings.json
     "Location": "Brisbane",
     "PizzaName": "mayo",   
     "Price": "1"
+  },
+]
+
+2. Offer store wide discounts 
+Adding a dicountCalculation method in the Pizzeria store class and compute the discounts whihc can be fetched from a config.
+Dicounts.json
+[
+  {
+    "Location": "Brisbane",
+    "Dicount": "10",       
   },
 ]
