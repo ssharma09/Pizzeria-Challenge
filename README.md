@@ -15,4 +15,15 @@ Nice-to-have:
 
 We appoint you a manager of this project, so feel free to add more features if you like :)
 
-__ADD YOUR NAME HERE__
+Saloni Sharma
+
+Thank you for sharing the challenge.
+I have refactored the code to define abstract classes for Pizza stores and Pizza.
+The store and respective pizza classes implement the methods which will cater to any location/store based offers or changes or pizza preparation,baking,boxing and cutting updates.
+
+The menu and price class take care of defining the menu rolled out for the locations.
+The values currently are defined in the class, which I would want to fetch from a config/json file based on the location.
+
+
+
+
